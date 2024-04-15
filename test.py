@@ -1,4 +1,4 @@
-from job import a, print_coucou
+from job import print_coucou
 
 def test_print_coucou(capsys):
    
