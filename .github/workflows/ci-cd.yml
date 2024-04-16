@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Changer de répertoire vers exo_node
+        run: cd exo_node
+
       - name: Installer les dépendances
         run: npm install
 
