@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Changer de répertoire vers exo_node
-        run: cd exo_node
-
       - name: Checkout du repository
         uses: actions/checkout@v2
+
+      - name: Changer de répertoire vers exo_node
+        run: cd Exo_devops/exo_node
 
       - name: Installer Node.js
         uses: actions/setup-node@v2
